@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "construction-template",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple construction template",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alex Quasar <contact@codepaper.dev>",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "gatsby": "^2.20.25",
+    "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-emotion": "^4.2.2",
     "gatsby-plugin-google-analytics": "^2.2.4",
@@ -16,6 +17,7 @@
     "gatsby-plugin-manifest": "^2.3.5",
     "gatsby-plugin-offline": "^3.1.4",
     "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sharp": "^2.5.6",
     "gatsby-plugin-sitemap": "^2.3.4",
     "gatsby-source-filesystem": "^2.2.4",
@@ -23,7 +25,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.10.0",
+    "react-id-swiper": "^3.0.0",
+    "swiper": "^5.3.8"
   },
   "devDependencies": {
     "prettier": "2.0.4"

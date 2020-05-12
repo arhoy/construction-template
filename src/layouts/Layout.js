@@ -9,13 +9,14 @@ import { Footer } from './Footer';
 
 const theme = {
   colors: {
-    primary: '#192242',
-    primaryDark: '#101A37',
-    primaryLight: '#34305C',
-    primaryLight2: '#817AC6',
-    secondaryVeryLight: '#d2f7f2',
-    secondary: 'rgb(24, 163, 201)',
-    lightgrey: 'rgb(240,240,240)',
+    primary: '#F7BC16',
+    primaryDark: '#C6940A',
+    primaryLight: '#F9DC06',
+
+    secondary: '#444444',
+    secondaryLight: '#858383',
+
+    lightgrey: '#F8F8F8',
     lightgrey2: 'rgb(224, 217, 217)',
     white: '#fff',
     whiteTrans9: 'rgba(255,255,255,0.9)',
@@ -64,7 +65,7 @@ const NavContainer = styled.header`
 `;
 
 const Main = styled.main`
-  grid-column: center-start/center-end;
+  grid-column: full-start/full-end;
 `;
 
 const FooterContainer = styled.footer`
