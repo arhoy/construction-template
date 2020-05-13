@@ -4,8 +4,8 @@ import { Global, css } from '@emotion/core';
 import { ThemeProvider } from 'emotion-theming';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
-import { Nav } from './Nav';
-import { Footer } from './Footer';
+import { Nav } from './Navigation/Nav';
+import { Footer } from './Footer/Footer';
 
 const theme = {
   colors: {

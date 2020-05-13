@@ -45,7 +45,7 @@ const Block = styled.div`
 
 const Block2 = styled.div`
   width: 100%;
-  height: 2rem;
+  height: 3rem;
 `;
 
 export const Reviews = () => {

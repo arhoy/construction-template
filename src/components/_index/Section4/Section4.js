@@ -4,9 +4,10 @@ import { ButtonWhite } from '../../reuseablestyles/Buttons';
 
 const Container = styled.div`
   margin: 4rem 0;
-  padding: 3rem 2rem;
+  padding: 3rem 1rem;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background: ${(props) => props.theme.colors.secondary};
@@ -15,6 +16,9 @@ const Container = styled.div`
     margin: 1rem;
     font-size: 1.4rem;
     max-width: 25rem;
+    @media (max-width: 600px) {
+      text-align: center;
+    }
   }
 `;
 

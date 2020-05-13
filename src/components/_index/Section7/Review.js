@@ -18,7 +18,8 @@ const Container = styled.div`
   color: ${(props) => props.theme.colors.secondary};
   & .imageContainer {
     position: absolute;
-    top: -4rem;
+    top: -3rem;
+    width: 6rem;
     z-index: 3;
   }
   & img {

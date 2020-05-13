@@ -8,6 +8,7 @@ const Container = styled.div`
   align-items: center;
 
   & .wrapper {
+    transform: translateX(-1rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +21,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 3rem;
   }
   & .icon {
   }

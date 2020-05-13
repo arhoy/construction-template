@@ -9,14 +9,23 @@ const ImageBackground = styled(BackgroundImage)`
   background-position: center center;
 
   display: flex;
+
   justify-content: center;
   align-items: center;
 `;
 
 const Container = styled.div`
   display: flex;
+
   max-width: 50rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
+
+  @media (max-width: 600px) {
+    display: grid;
+    & > * {
+      margin: 1rem;
+    }
+  }
   & p {
     color: white;
   }

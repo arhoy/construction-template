@@ -5,15 +5,16 @@ import { GrFacebookOption, GrLinkedinOption, GrTwitter } from 'react-icons/gr';
 
 const Container = styled.div`
   display: flex;
-
+  flex-wrap: wrap;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3rem 1rem;
   background: ${(props) => props.theme.colors.primaryDark};
   justify-content: center;
   align-items: center;
 
   & .wrapper {
     max-width: 25rem;
+    min-width: auto;
     & p {
       margin: 1rem 0;
     }

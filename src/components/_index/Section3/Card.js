@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 20rem;
+  margin: 1rem;
   justify-content: center;
   align-items: center;
   & img {
@@ -25,7 +26,7 @@ const Container = styled.div`
     opacity: 0.8;
     text-align: center;
     margin-bottom: 1rem;
-    height: 5rem;
+    min-height: 5rem;
   }
 `;
 

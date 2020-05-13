@@ -1,11 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import heroSvg from '../../../images/main/hero.svg';
-import {
-  Button1,
-  ButtonOutline,
-  ButtonFilled,
-} from '../../reuseablestyles/Buttons';
+import { ButtonOutline, ButtonFilled } from '../../reuseablestyles/Buttons';
 
 const Section = styled.div`
   height: 90vh;
@@ -15,6 +11,9 @@ const Section = styled.div`
   & h1 {
     color: ${(props) => props.theme.colors.black};
     font-size: 3rem;
+  }
+  @media (max-width: 600px) {
+    height: 70vh;
   }
 `;
 
@@ -30,6 +29,7 @@ const Container = styled.div`
 
   & .row {
     display: flex;
+    flex-wrap: wrap;
   }
 `;
 

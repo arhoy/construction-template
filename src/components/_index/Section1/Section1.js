@@ -5,16 +5,23 @@ import lightbulb from '../../../images/main/lightbulb.svg';
 import award from '../../../images/main/award.svg';
 import arrow from '../../../images/main/arrow.svg';
 
-const Container = styled.div`
-  display: flex;
+const Section = styled.div`
+  display: grid;
+  max-width: 1400px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
 
 export const Section1 = () => {
   return (
-    <Container>
+    <Section>
       <Card
         title="Innovative"
         blurb="With cutting-edge technology, we deliver complex and creative designs and solutions"
@@ -31,6 +38,6 @@ export const Section1 = () => {
         blurb="We strive to deliver high quality construction and remodelling services at reasonable costs"
         icon={arrow}
       />
-    </Container>
+    </Section>
   );
 };
