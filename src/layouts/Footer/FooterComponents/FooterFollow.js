@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { NoStyleLink } from '../../../components/reuseablestyles/Links';
-import SocialIcons from '../../../constants/SocialIcons';
+import socialIcons from '../../../constants/socialIcons';
 
 const Container = styled.div`
   margin-right: 2rem;
@@ -45,7 +45,7 @@ export const FooterFollow = () => {
       <LinkContainers>
         <LinkHeaders>Follow Us</LinkHeaders>
         <SocialIconContainer>
-          {SocialIcons.map((icon) => (
+          {socialIcons.map((icon) => (
             <SocialIcon
               key={icon.url}
               href={icon.url}
